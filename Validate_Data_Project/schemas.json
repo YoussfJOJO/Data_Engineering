@@ -1,0 +1,106 @@
+{
+
+
+    "Orders_db": [
+        {
+            "column_name": "order_id",
+            "data_type": "int64",
+            "column_position": 1
+        },
+        {
+            "column_name": "order_date",
+            "data_type": "str",
+            "column_position": 2
+        },
+        {
+            "column_name": "order_customer_id",
+            "data_type": "datetime64[ns]",
+            "column_position": 3               
+        },
+        {
+            "column_name": "order_status",
+            "data_type": "str",
+            "column_position": 4
+        }
+    ],
+    "Products_db": [
+        {
+            "column_name": "product_id",
+            "data_type": "int64",
+            "column_position": 1
+        },
+        {
+            "column_name": "product_category_id",
+            "data_type": "int64",
+            "column_position": 2
+        },
+        {
+            "column_name": "product_name",
+            "data_type": "str",
+            "column_position": 3
+        },
+        {
+            "column_name": "product_description",
+            "data_type": "str",
+            "column_position": 4
+        },
+        {
+            "column_name": "product_price",
+            "data_type": "float64",
+            "column_position": 5
+        },
+        {
+            "column_name": "product_image",
+            "data_type": "str",
+            "column_position": 6
+        }
+    ],
+    "Customers_db": [
+        {
+            "column_name": "customer_id",
+            "data_type": "int64",
+            "column_position": 1
+        },
+        {
+            "column_name": "customer_fname",
+            "data_type": "str",
+            "column_position": 2
+        },
+        {
+            "column_name": "customer_lname",
+            "data_type": "str",
+            "column_position": 3
+        },
+        {
+            "column_name": "customer_email",
+            "data_type": "str",
+            "column_position": 4
+        },
+        {
+            "column_name": "customer_password",
+            "data_type": "str",
+            "column_position": 5
+        },
+        {
+            "column_name": "customer_street",
+            "data_type": "str",
+            "column_position": 6
+        },
+        {
+            "column_name": "customer_city",
+            "data_type": "str",
+            "column_position": 7
+        },
+        {
+            "column_name": "customer_state",
+            "data_type": "str",
+            "column_position": 8
+        },
+        {
+            "column_name": "customer_zipcode",
+            "data_type": "int64",
+            "column_position": 9
+        }
+    ]
+
+}
