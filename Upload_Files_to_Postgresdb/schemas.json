@@ -1,0 +1,27 @@
+{
+
+
+    "Orders_db": [
+        {
+            "column_name": "order_id",
+            "data_type": "int64",
+            "column_position": 1
+        },
+        {
+            "column_name": "order_date",
+            "data_type": "str",
+            "column_position": 2
+        },
+        {
+            "column_name": "order_customer_id",
+            "data_type": "datetime64[ns]",
+            "column_position": 3               
+        },
+        {
+            "column_name": "order_status",
+            "data_type": "str",
+            "column_position": 4
+        }
+    ]
+
+}
